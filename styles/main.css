@@ -1,13 +1,12 @@
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 260px;
-  background-color: #E4E4E6;
+  background-color: #e4e4e6;
   text-align: center;
 }
 
 h1 {
   font-size: 50pt;
-  color
 }
 
 p {
@@ -18,94 +17,145 @@ a {
   font-size: 15pt;
 }
 
-.green-pill {
+#learning-exp {
+  color: #4f4a4a;
+}
+
+#continue {
+  color: #4f4a4a;
+}
+
+#green-pill {
   color: #2ecc71;
+  text-decoration: none;
 }
 
-.red-pill {
+#green-pill:hover {
+  text-shadow: 0 0 3px #2ecc71;
+}
+
+#red-pill {
   color: #e74c3c;
+  text-decoration: none;
 }
 
-.Trials {
-  color: #ffffff;
+#red-pill:hover {
+  text-shadow: 0 0 3px #e74c3c;
+}
+
+.trials {
+  color: #e4e4e6;
+  width: 200px;
+  background-color: black;
 }
 
 .index {
-  background-color:black;
-  padding: 6px ;
-  width: fit-content;
   border: black;
+  display: flex;
+  justify-content: center;
 }
 
-.tech1-box {
-    background-color: #38456A;
-  padding: 5px ;
+#tech1-box {
+  padding: 5px;
   margin-bottom: 8px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
- 
+
 .tech1 {
-    color: #ffffff;
-  }
-  
+  color: #e4e4e6;
+  background-color: #38456a;
+  text-decoration: none;
+}
+
 .sprint1-title {
-    color: #ffffff;
-  }
+  color: #e4e4e6;
+  background-color: #38456a;
+}
 
 .sprint1-title-box {
-    background-color: #38456A;
-  padding: 5px ;
+  padding: 5px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
 
-
-.tech2-box {
-    background-color: #1A332B;
-  padding: 5px ;
+#tech2-box {
+  padding: 5px;
   margin-bottom: 8px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
 
 .tech2 {
-    color: #ffffff;
-  }
+  color: #e4e4e6;
+  text-decoration: none;
+  background-color: #1a332b;
+}
 
-  .tech3-box {
-    background-color: #4E5A42;
-  padding: 5px ;
+#sprint1-title {
+  color: #e4e4e6;
+}
+
+#sprint2-title-box {
+  padding: 5px;
+  border: black;
+  display: flex;
+  justify-content: center;
+}
+
+#tech3-box {
+  padding: 5px;
   margin-bottom: 8px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
 
-.sprint1-title-box {
-    background-color: #38456A;
-  padding: 5px ;
-  border: black;
-}
- 
 .tech3 {
-    color: #ffffff;
-  }
+  color: #e4e4e6;
+  background-color: #4e5a42;
+  text-decoration: none;
+}
 
-  .tech4-box {
-    background-color: #4F4A4A;
-  padding: 5px ;
+#tech4-box {
+  padding: 5px;
   margin-bottom: 8px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
- 
-.tech4 {
-    color: #ffffff;
-  }
 
-  .tech5-box {
-    background-color: #6C0101;
-  padding: 5px ;
+.tech4 {
+  color: #e4e4e6;
+  text-decoration: none;
+  background-color: #4f4a4a;
+}
+
+#tech5-box {
+  padding: 5px;
   margin-bottom: 285px;
   border: black;
+  display: flex;
+  justify-content: center;
 }
- 
+
 .tech5 {
-    color: #ffffff;
-  }
-  
+  color: #e4e4e6;
+  text-decoration: none;
+  background-color: #6c0101;
+}
+
+#home-button {
+  display: flex;
+  color: #4f4a4a;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#youll-be-back {
+  text-decoration: none;
+  color: #4f4a4a;
+}
