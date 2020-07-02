@@ -55,9 +55,9 @@ a {
   justify-content: center;
 }
 
-#tech1-box {
+.tech-box {
   padding: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 0px auto;
   border: black;
   display: flex;
   justify-content: center;
@@ -79,14 +79,8 @@ a {
   border: black;
   display: flex;
   justify-content: center;
-}
-
-#tech2-box {
-  padding: 5px;
-  margin-bottom: 8px;
-  border: black;
-  display: flex;
-  justify-content: center;
+  background-color: #38456a;
+  color: #e4e4e6;
 }
 
 .tech2 {
@@ -95,7 +89,7 @@ a {
   background-color: #1a332b;
 }
 
-#sprint1-title {
+#sprint2-title {
   color: #e4e4e6;
 }
 
@@ -104,14 +98,13 @@ a {
   border: black;
   display: flex;
   justify-content: center;
+  background-color: #1a332b;
 }
 
-#tech3-box {
-  padding: 5px;
-  margin-bottom: 8px;
-  border: black;
-  display: flex;
-  justify-content: center;
+#what-class {
+}
+
+#what-id {
 }
 
 .tech3 {
@@ -120,26 +113,10 @@ a {
   text-decoration: none;
 }
 
-#tech4-box {
-  padding: 5px;
-  margin-bottom: 8px;
-  border: black;
-  display: flex;
-  justify-content: center;
-}
-
 .tech4 {
   color: #e4e4e6;
   text-decoration: none;
   background-color: #4f4a4a;
-}
-
-#tech5-box {
-  padding: 5px;
-  margin-bottom: 285px;
-  border: black;
-  display: flex;
-  justify-content: center;
 }
 
 .tech5 {
@@ -158,4 +135,16 @@ a {
 #youll-be-back {
   text-decoration: none;
   color: #4f4a4a;
+}
+
+#blog-icon-tech {
+  color: #6c0101;
+  text-decoration: none;
+  background-color: #e4e4e6;
+}
+
+#blog-icon-cult {
+  color: #6c0101;
+  text-decoration: none;
+  background-color: #e4e4e6;
 }
