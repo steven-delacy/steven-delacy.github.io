@@ -103,10 +103,32 @@ a {
   background-color: #1a332b;
 }
 
-#what-class {
+.section {
+  display: flex;
+  padding-bottom: 5rem;
 }
 
-#what-id {
+.topic1 {
+  flex-direction: row;
+}
+
+.topic2 {
+  flex-direction: row-reverse;
+}
+
+.column {
+  width: 50%;
+}
+
+.justify-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-bottom-small {
+  margin-bottom: 2em;
 }
 
 .tech3 {
@@ -127,18 +149,22 @@ a {
   background-color: #6c0101;
 }
 
+.link {
+  width: 15rem;
+}
+
 #blog-icon-tech {
-  color: #6c0101;
+  color: #e4e4e6;
+  background-color: #263947;
   text-decoration: none;
-  background-color: #e4e4e6;
 }
 
 /*Culture Sprints*/
 
 #blog-icon-cult {
-  color: #6c0101;
+  color: #e4e4e6;
+  background-color: #005e59;
   text-decoration: none;
-  background-color: #e4e4e6;
 }
 
 /*misc buttons*/
