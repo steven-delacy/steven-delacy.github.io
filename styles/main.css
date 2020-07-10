@@ -4,7 +4,7 @@ body {
   background-color: #e4e4e6;
   text-align: center;
 }
-
+/**/
 h1 {
   font-size: 50pt;
 }
@@ -48,6 +48,8 @@ a {
   width: 200px;
   background-color: black;
 }
+
+/*Tech Sprints*/
 
 .index {
   border: black;
@@ -125,6 +127,22 @@ a {
   background-color: #6c0101;
 }
 
+#blog-icon-tech {
+  color: #6c0101;
+  text-decoration: none;
+  background-color: #e4e4e6;
+}
+
+/*Culture Sprints*/
+
+#blog-icon-cult {
+  color: #6c0101;
+  text-decoration: none;
+  background-color: #e4e4e6;
+}
+
+/*misc buttons*/
+
 #home-button {
   display: flex;
   color: #4f4a4a;
@@ -135,16 +153,4 @@ a {
 #youll-be-back {
   text-decoration: none;
   color: #4f4a4a;
-}
-
-#blog-icon-tech {
-  color: #6c0101;
-  text-decoration: none;
-  background-color: #e4e4e6;
-}
-
-#blog-icon-cult {
-  color: #6c0101;
-  text-decoration: none;
-  background-color: #e4e4e6;
 }
