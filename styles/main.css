@@ -51,6 +51,10 @@ a {
 
 /*Tech Sprints*/
 
+.center-txt {
+  display: flex;
+}
+
 .index {
   border: black;
   display: flex;
@@ -95,12 +99,13 @@ a {
   color: #e4e4e6;
 }
 
-#sprint2-title-box {
+.sprint2-title-box {
   padding: 5px;
   border: black;
   display: flex;
   justify-content: center;
   background-color: #1a332b;
+  color: #e4e4e6;
 }
 
 .section {
